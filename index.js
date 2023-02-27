@@ -1,14 +1,26 @@
-//document.getElementByID("count").innerText = 5
-//initialise the count as 0
-//Track clicks  on the increment button
-//Increment the count variable when the button is clicked
-//change the count-el in the HTML to reflect new count
+/*
+let countEl = document.getElementById("count-el")
 
+let count=0
 
-	let count = 0
 function increment()
 {
 	count+=1
-	console.log(count)		
+	countEl.innerText=count
+
 }
 
+// Create a function , save()which logs the count when it's called
+
+function save()
+{
+	console.log(count)
+	console.log(countEl)
+}
+*/
+
+let name="Nathan Jerome Jockey"
+let greeting="Hi, my name is"
+
+let myGreeting = greeting+" "+name
+console.log(myGreeting)
